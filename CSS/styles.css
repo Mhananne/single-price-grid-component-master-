@@ -1,0 +1,173 @@
+body {
+  background-color: #e5eff5;
+  font-family: 'Karla';
+}
+
+p, h1, h2, h3 {
+  padding-left: 30px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+h2 {
+  padding-bottom: 10px;
+  margin-top: 10;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h3 {
+  padding-bottom: 15px;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  padding-right: 30px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+.community {
+  background-color: #ffffff;
+  color: #98a6bd99;
+}
+
+.community-header {
+  color: #2ab2af;
+}
+
+.community-subheader {
+  color: #c0df34;
+}
+
+.Subscription {
+  background-color: #2ab2af;
+  color: #e5eff5;
+  padding-bottom: 20px;
+}
+
+.per-month {
+  padding-bottom: 0;
+  margin-bottom: 7px;
+}
+
+.twenty-nine-dollars {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: #c0df34;
+  border: none;
+  color: white;
+  margin: 0 auto;
+  padding: 15px 100px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.04);
+}
+
+.Why-Us {
+  background-color: #4ABEBD;
+  color: #e5eff5;
+}
+
+.Why-Us-header {
+  padding-bottom: 15px;
+}
+
+.Why-us-list {
+  margin-top: 0;
+  line-height: 1.3rem;
+}
+
+@media (max-width: 920px) {
+  .container {
+    margin: 72px auto 0 auto;
+  }
+
+  .community {
+    margin: 0 auto;
+    height: 266px;
+    width: 312px;
+  }
+
+  .Subscription {
+    margin: 0 auto;
+    height: 228px;
+    width: 312px;
+  }
+
+  .Why-Us {
+    margin: 0 auto;
+    height: 228px;
+    width: 312px;
+  }
+}
+
+@media (min-width: 920px) {
+  p, h1, h2, h3 {
+    padding-left: 40px;
+  }
+
+  h1 {
+    padding-top: 35px;
+  }
+
+  .container {
+    display: grid;
+    width: 635px;
+    margin: 162px auto 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 216px 259px;
+  }
+
+  .community {
+    grid-row: 1 / 2;
+    grid-column: 1/ 3;
+  }
+
+  .community-header {
+    font-size: 1.5rem;
+  }
+
+  .community-subheader {
+    font-size: 1.17rem;
+    padding-bottom: 0;
+  }
+
+  .community-text {
+    font-size: 16px;
+  }
+
+  .Subscription {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  .Why-Us {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+}
